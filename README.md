@@ -1,20 +1,66 @@
-# Protecto-iterativo-
+# 🐍 Estructuras de Datos en Python
 
-# Evaluación 2 - Estructura de Datos (Grafos)
+Implementación de estructuras de datos fundamentales en Python, desarrollada como práctica de algoritmos y estructuras.
 
-Este repositorio contiene nuestra implementación en Python de un grafo usando **lista de adyacencia** y recorridos.
+## 📋 ¿Qué incluye?
 
-## Qué incluye este código
-### Proyecto 1 (BFS con cola propia)
-- Clase `Queue` (cola propia) con:
-  - `enqueue(x)`, `dequeue()`, `first()` / `peek()`, `is_empty()`, `size()`
-- Clase `Graph` con lista de adyacencia (diccionario)
-- Métodos:
-  - `bfs(start)` -> regresa el orden de visita
-  - `bfs_parents(start)` -> regresa un diccionario `parent` para reconstruir caminos
-  - `path_unweighted(start, goal)` -> regresa la ruta (lista) o `None` si no existe
+- **Queue (Cola)**: Implementación FIFO
+- **Stack (Pila)**: Implementación LIFO
+- **Linked List**: Lista enlazada simple
+- **Binary Tree**: Árbol binario
+- **Hash Table**: Tabla hash
 
+## 🛠️ Tech Stack
 
-## Cómo ejecutar
-En tu computadora o en Colab:
+| Lenguaje | Enfoque | Herramientas |
+|----------|---------|--------------|
+| Python 3.9+ | Algoritmos | Google Colab |
+| | Estructuras de Datos | Jupyter |
 
+## 📁 Estructura del proyecto
+
+```
+estructuras-datos-python/
+├── notebooks/
+│   ├── 01_queue.ipynb
+│   ├── 02_stack.ipynb
+│   ├── 03_linked_list.ipynb
+│   ├── 04_tree.ipynb
+│   └── 05_hash_table.ipynb
+├── src/
+│   ├── queue.py
+│   ├── stack.py
+│   └── linked_list.py
+├── tests/
+│   └── test_estructuras.py
+└── README.md
+```
+
+## 🚀 Cómo usarlo
+
+```bash
+# Clonar
+git clone https://github.com/epinki07/estructuras-datos-python.git
+cd estructuras-datos-python
+
+# Ejecutar en Jupyter
+jupyter notebook notebooks/01_queue.ipynb
+
+# O ejecutar tests
+python -m pytest tests/
+```
+
+## 💡 Qué aprendí
+
+- Implementación de estructuras desde cero
+- Complejidad algorítmica (Big O)
+- Cuándo usar cada estructura
+- Testing de estructuras de datos
+
+## 🤝 Autor
+
+**Diego Ramirez Magaña**
+
+- 📧 dramirezmagana@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/)
+- 🐙 [GitHub](https://github.com/epinki07)
